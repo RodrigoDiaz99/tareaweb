@@ -1,0 +1,105 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body.login {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('');
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn.btn-primary {
+    background-color: rgb(90, 175, 73)!important;
+    color: white;
+    border-color: rgb(107, 204, 87)!important;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(107, 204, 87)!important;
+    color: white;
+    border-color: rgb(107, 204, 87)!important;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: rgb(118, 201, 101)!important;
+}
+
+.sidebar ul li a {
+    color: white;
+}
+
+.sidebar ul li a:hover {
+    color: #e2e2e2;
+}
+
+a.dropdown-item {
+    color: black!important;
+}
+
+@media only screen and (max-width:768px) {
+    .sidebar {
+        height: 100%;
+    }
+}
+
+th.asunto {
+    width: 150px!important;
+}
+
+.shadow {
+    box-shadow: 3px 3px 6px rgba(173, 173, 173, 3);
+}
+
+
+/*suggestions*/
+
+.autocomplete-suggestions {
+    border: 1px solid rgb(208, 208, 208);
+    background: #FFF;
+    overflow: auto;
+}
+
+.autocomplete-suggestion {
+    padding: 2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.autocomplete-selected {
+    background: #e3e3e3;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #76C965;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
+}

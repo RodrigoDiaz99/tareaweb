@@ -1,0 +1,16 @@
+.dashboard-title {
+    font-size: 15px;
+}
+
+.dashboard-link {
+    color: #ffffff;
+}
+
+.dashboard-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.dashboard-link:active {
+    background-color: gray;
+}
